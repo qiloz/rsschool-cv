@@ -1,10 +1,96 @@
 
-h1.logo{
+h1.topLabel{
+    color:#E8D7F1;
+    background-color: #F95738;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 42px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+h1.subLabel{
     color:whitesmoke;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
 }
-body{
-    background-color: #0E273C;
-    margin: 30px;
+
+h2.sampleText{
+    color:rgb(173, 173, 173);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+div.codespace{
+    background-color: #0b1f30;
+    color:lightslategrey;
+    border-radius: 5px;
     padding: 15px;
+}
+
+a{
+    color:#F4D35E;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    text-decoration:dotted;
+    text-indent: 0;
+
+}
+li{
+    color:rgb(173, 173, 173);
+    list-style-type:square;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    
+}
+
+p.boldStyle{
+    color:rgb(173, 173, 173);
+    list-style-type:square;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+body{
+    max-width: 700px;
+    background-color: #0E273C;
+    margin: 30px auto;
+    padding: 15px;
+
+}
+img.avatar{
+    border-radius: 100%;
+    width: 80%;
+}
+
+td.contactsLable{
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    vertical-align: super;
+    font-size: 32px;
+    height: 5px;
+}
+
+td.contactsAvatar{
+    width: 256px;
+    height: 150px;
+}
+
+td.contactsName{
+    color:whitesmoke;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    vertical-align: super;
+    font-size: 30px;
+    height: 5px;
+}
+
+td.contactsInfo{
+    color:rgb(173, 173, 173);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
 }
