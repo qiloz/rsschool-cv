@@ -7,3 +7,21 @@ main{
 footer{
 
 }
+
+.contacts-card{
+
+}
+
+.title-line {
+    background-color: #BFDBF7;
+
+    margin: 22px 62px 12px 62px;
+    padding: 10px 0 10px 36px;
+    font-size: 14px;
+}
+
+.text-block {
+    background-color: #EDF1FF;
+    margin: 12px 62px 26px 62px;
+    padding: 14px 22px 14px 22px;
+}
