@@ -8,7 +8,7 @@
     <title>Alexander Ivanov</title>
   </head>
   <body>
-    <header>
+    <!-- <header>
       <nav>
         <ul>
           <li>Main</li>
@@ -17,47 +17,42 @@
           <li>Code</li>
         </ul>
       </nav>
-    </header>
+    </header> -->
     <main>
-      <section class="contact-card">
-        <img src="src/avatar.jpg" alt="avatar" />
-        <h1>Alexander Ivanov</h1>
-      </section>
-      <section class="contact-list">
-        <ul>
-          <li>
-            <a href="https://discord.com/users/319793828712415235"
-              ><img
-                src="/src/discord-ico.svg"
-                width="32"
-                alt="discord logo"
-              />discord</a
-            >
-          </li>
-          <li>
-            <a href="https://t.me/c_pag"
-              ><img
-                src="/src/tg-ico.svg"
-                width="32"
-                alt="telegram logo"
-              />telegram</a
-            >
-          </li>
-          <li>
-            <a href="https://github.com/qiloz"
-              ><img
-                src="/src/gh-ico.svg"
-                width="32"
-                alt="github logo"
-              />github</a
-            >
-          </li>
-        </ul>
-      </section>
+      <div class="contact-card">
+        <section class="contact-name">
+          <img src="src/avatar.jpg" alt="avatar" />
+          <h1>Alexander Ivanov</h1>
+        </section>
+          <section class="contact-link">
+            <div class="contact-buttons">
+            <ul>
+              <li>
+                <a href="https://discord.com/users/319793828712415235"
+                  ><img src="/src/discord-ico.svg" width="32" alt="discord logo"
+                /></a>
+              </li>
+              <li>
+                <a href="https://t.me/c_pag"
+                  ><img src="/src/tg-ico.svg" width="32" alt="telegram logo"
+                /></a>
+              </li>
+              <li>
+                <a href="https://github.com/qiloz"
+                  ><img src="/src/gh-ico.svg" width="32" alt="github logo"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          </section>
+      </div>
 
-      <section class="projects-info">
+
+      <section class="info">
         <h2>My projects</h2>
-        <div></div>
+        <ul>
+          <li>This CV</li>
+        </ul>
       </section>
 
       <section class="info">
@@ -88,23 +83,20 @@
 
       <section class="info">
         <h2>Language</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          vel facilisis mauris. Fusce ultricies ornare nulla vel elementum.
-          Mauris accumsan vitae turpis hendrerit pellentesque. Quisque diam
-          lacus, pharetra ac venenatis et, aliquam vitae ante. Suspendisse
-          gravida at enim quis semper. Sed et erat gravida ipsum sodales
-          condimentum vitae nec diam. Mauris quis est quis urna luctus
-          vestibulum. Aliquam efficitur dui eget arcu tempor dapibus.
-        </p>
+        <ul>
+          <li>Russian - Native</li>
+          <li>English - B2 (<a href="https://www.efset.org/cert/zQMXp6">Link to my certificate</a>)</li>
+        </ul>
       </section>
 
       <section class="info">
         <h2>Code example</h2>
         <div class="code">
-          <code> int multiply(int a, int b) {<br>
-            &nbsp;return a * b; <br>
-            } </code>
+          <code>
+            int multiply(int a, int b) {<br />
+            &nbsp;return a * b; <br />
+            }
+          </code>
         </div>
       </section>
     </main>
@@ -113,10 +105,10 @@
         <a href="https://github.com/qiloz"
           ><img src="/src/gh-big.svg" class="gh-logo"
         /></a>
+        <p>@qiloz<br />2022</p>
         <a href="https://rs.school/js"
           ><img src="/src/rs_school_logo.svg" class="rs-logo"
         /></a>
-        <p>@qiloz<br />2022</p>
       </section>
     </footer>
   </body>

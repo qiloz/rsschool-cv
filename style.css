@@ -1,61 +1,76 @@
 body {
   background-color: #e1e5f2;
-  max-width: 800px;
-  margin: auto;
+  margin: 0;
 }
 
 main {
   background-color: #ffffff;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin: 30px auto;
+  max-width: 800px;
+  box-shadow: rgba(71, 71, 71, 0.732) 0 0 2px 0px;
 }
 
-.contact-card img {
-  background-color: blue;
+.contact-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-name img {
+  background-color: rgba(255, 0, 0, 0);
   width: 150px;
   height: 150px;
-  margin-left: 66px;
   border-radius: 100%;
+  padding: 20px;
 }
 
-.contact-card h1 {
-  position: absolute;
-  top: 170px;
+.contact-name h1 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  margin-left: 250px;
-}
-.contact-list {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  position: absolute;
-  top: 135px;
-  margin-left: 600px;
-  line-height: 40px;
+  margin: 0 0 20px 0 ;
 }
 
-.contact-list ul {
-  list-style-type: none;
+.contact-link {
+  width: 295px;
+  height: 30px;
+  margin: 0px 0 40px 0;
 }
-.contact-list img {
-  position: absolute;
-  margin-left: -38px;
-  margin-top: 3px;
-  list-style-type: none;
+
+.contact-link ul {
+  margin: 0px 0 -15px 0;
 }
-.contact-list a:link {
+
+.contact-link li {
+  float: left;
+  list-style-type: none;
+  background-color: #edf1ff;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.contact-link img {
+  width: 30px;
+  list-style-type: none;
+  top: 0px;
+  padding: 10px;
+}
+.contact-link a:link {
   color: #004478;
 }
 
-.contact-list a:visited {
+.contact-link a:visited {
   color: #004478;
 }
 
-.contact-list a:hover {
+.contact-link a:hover {
   color: #004478;
 }
 
 .projects-info {
-  margin: 80px 62px 22px 62px;
+  margin: 0px 54px 22px 54px;
 }
 
 .projects-info h2 {
@@ -67,8 +82,16 @@ main {
     "Lucida Sans", Arial, sans-serif;
 }
 
+.projects-info p {
+  background-color: #edf1ff;
+  margin: 0 0 26px 0;
+  padding: 14px 22px 14px 22px;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .info {
-  margin: 22px 62px 22px 62px;
+  margin: 22px 54px 22px 54px;
 }
 .info h2 {
   background-color: #bfdbf7;
@@ -95,7 +118,6 @@ main {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .info div.code {
   background-color: rgb(90, 90, 90);
   color: white;
@@ -105,7 +127,7 @@ main {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   left: 0;
   width: 100%;
   height: 128px;
@@ -114,25 +136,22 @@ footer {
 
 .content-area {
   margin: auto;
+  padding: 25px;
   max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .gh-logo {
-  position: relative;
-  top: 30px;
   width: 72px;
 }
 
 .rs-logo {
-  position: absolute;
-  width: 120px;
-  top: 45px;
-  margin-left: 400px;
+  margin-top: 20px;
+  width: 92px;
 }
 
 .content-area p {
-  position: absolute;
-  top: 30px;
-  margin-left: 80px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
