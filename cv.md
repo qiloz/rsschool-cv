@@ -2,9 +2,14 @@
 
 ![avatar](src/avatar.jpg)
 
+
+### My projects
+- [My CV](https://github.com/qiloz/rsschool-cv/tree/rsschool-cv-html)
+
 ### Contacts
 * Telegram: @c_pag
 * Discord: (rs-school) MrSandwich(@qiloz)
+* Github: @qiloz
 
 ### About me
 - my goal: improve myself;
@@ -26,8 +31,6 @@ int multiply(int a, int b)
 }
 ```
 
-### My project 
-- [My CV](https://github.com/qiloz/rsschool-cv/tree/gh-pages)
-
-### English
+### Language
+Russian - Native
 B2 - [Link to my certificate](https://www.efset.org/cert/zQMXp6)
