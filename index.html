@@ -1,72 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="main-content">
-    <h1 class="top-label">Curriculum vitae</h1>
-    <table>
-        <tr>
-            <td rowspan="3" class="contacts-avatar"><img src="src/avatar.jpg" alt="avatar-pic" class="avatar"></td>
-            <td class="contacts-lable">Alexander Ivanov</td>
-          </tr>
-          <tr>
-            <td class="contacts-info">                
-                <ul>
-                    <li>Telegram: <a href="https://t.me/c_pag">@c_pag</a></li>
-                    <li>Discord (rs-school): MrSandwich (@qiloz)</li>
-                    <li>Github: <a href="https://github.com/qiloz">@qiloz</a></li>
-                </ul>
-            </td>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-scale=0.7, maximum-scale=1.5"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Alexander Ivanov</title>
+  </head>
+  <body id="header">
+    <header>
+      <section class="navbar">
+        <nav>
+          <ul>
+            <li><a href="#header">Main</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#code">Code</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <div class="contact-card">
+        <section class="contact-name">
+          <img src="src/avatar.jpg" alt="avatar" />
+          <h1>Alexander Ivanov</h1>
+        </section>
+        <section class="contact-link">
+          <div class="contact-buttons">
+            <ul>
+              <li>
+                <a href="https://discord.com/users/319793828712415235"
+                  ><img
+                    src="/src/discord-ico.svg"
+                    width="32"
+                    alt="discord logo"
+                /></a>
+              </li>
+              <li>
+                <a href="https://t.me/c_pag"
+                  ><img src="/src/tg-ico.svg" width="32" alt="telegram logo"
+                /></a>
+              </li>
+              <li>
+                <a href="https://github.com/qiloz"
+                  ><img src="/src/gh-ico.svg" width="32" alt="github logo"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
 
-          </tr>
-          <tr>
-            <td></td>
-          </tr>
-    </table>
-    
-    
-    <h1 class="sub-label">About me</h1>
-    <ul>
-    <li><b>My goal:</b> improve myself</li>
-    <li><b>My forte:</b> involvement in the process;</li>
-    <li>I very like to find something new in development. If i sit for very interesting project, i will working for it for a long time</li>
-    </ul>
-    <h1 class="sub-label">Skills</h1>
-    <ul>
-        <li>Basic skills for Linux-CLI</li>
-        <li>To improve myself i learning: C++, Java, Python</li>
-        <li><b>IDE:</b> IntelliJ IDEA/PyCharm</li>
-        <li><b>Text editor:</b> Vim</li>
-        <li><b>Education level:</b> secondary specialized in system administration, in the process of obtaining higher education</li>
-    </ul>
-    <h1 class="sub-label">Code example</h1>
-    <div class="codespace">
-        <pre>
-int multiply(int a, int b)
-{
-    return a * b;
-}
-</pre>
-    </div>
-    <h1 class="sub-label">My projects</h1>
-    <ul>
-        <li>CV (This page)</li>
-    </ul>
-    <h1 class="sub-label">Language skills</h1>
-    <ul>
-    <li>Russian: Native</li>
-    <li>English: B2 - <a href="https://www.efset.org/cert/zQMXp6">Link to my certificate</a></li>
-    </ul>
-</div>
-    <div class="footer">
-        <b>Сделано в</b>
-        <a href="https://rs.school"><img src="src/rs_school_logo.svg" alt="rs-school logo" class="footer-logo"></a>
-    </div>
-</body>
+      <section class="info">
+        <h2>My projects</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/qiloz/rsschool-cv/tree/rsschool-cv-html"
+              >This CV</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section class="info">
+        <h2 id="about">About me</h2>
+        <ul>
+          <li>My goal: improve myself;</li>
+          <li>My forte: involvement in the process;</li>
+          <li>
+            I very like to find something new in development. If i sit for very
+            interesting project, i will working for it for a long time
+          </li>
+        </ul>
+      </section>
+
+      <section class="info">
+        <h2 id="skill">Skills</h2>
+        <ul>
+          <li>Basic skills for Linux-CLI</li>
+          <li>To improve myself i learning: C++, Java, Python</li>
+          <li>IDE: IntelliJ IDEA/PyCharm</li>
+          <li>Text editor: Vim</li>
+          <li>
+            Education level: secondary specialized in system administration, in
+            the process of obtaining higher education
+          </li>
+        </ul>
+      </section>
+
+      <section class="info">
+        <h2 id="lang">Language</h2>
+        <ul>
+          <li>Russian - Native</li>
+          <li>
+            English - B2 (<a href="https://www.efset.org/cert/zQMXp6"
+              >Link to my certificate</a
+            >)
+          </li>
+        </ul>
+      </section>
+
+      <section class="info">
+        <h2 id="code">Code example</h2>
+        <div class="code">
+          <code>
+            int multiply(int a, int b) {<br />
+            &nbsp;return a * b; <br />
+            }
+          </code>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="content-area">
+        <a href="https://github.com/qiloz"
+          ><img src="/src/gh-big.svg" class="gh-logo" alg="github-logo"
+        /></a>
+        <p><a href="https://github.com/qiloz">@qiloz</a><br />2022</p>
+        <a href="https://rs.school/js"
+          ><img src="/src/rs_school_logo.svg" class="rs-logo" alt="rsschool-logo"
+        /></a>
+      </section>
+    </footer>
+  </body>
 </html>
