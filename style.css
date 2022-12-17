@@ -162,18 +162,18 @@ main {
 footer {
   position: relative;
   left: 0;
-  width: 100%;
-  height: 128px;
+  margin: auto;
+  height: 100px;
   background-color: gold;
 }
 
 .content-area {
-  margin: auto;
-  padding: 25px;
-  max-width: 600px;
   display: flex;
+  padding: 25px;
+  
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
 }
 
 .gh-logo {
