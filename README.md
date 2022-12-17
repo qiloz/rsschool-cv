@@ -1,1 +1,1 @@
-# rsschool-cv
+https://qiloz.github.io/rsschool-cv/
