@@ -6,6 +6,7 @@ body {
 header {
   display: flex;
   justify-content: center;
+  margin: auto;
   position: fixed;
   top: 0;
   background-color: #2f4858;
@@ -13,8 +14,15 @@ header {
   height: 60px;
 }
 
-header ul li {
+header ul {
+  position: relative;
+  padding-left: 0;
+}
+header li {
+  position: relative;
   flex-direction: row;
+  align-content: center;
+  flex-grow: 1;
   float: left;
   list-style-type: none;
   color: white;
@@ -24,7 +32,7 @@ header ul li {
 
 header a {
   color: white;
-  padding: 20px 20px 25px 20px;
+  padding: 20px 10px 25px 10px;
 }
 
 main {
